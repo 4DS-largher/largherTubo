@@ -17,6 +17,10 @@ public class Tubo {
         return outerRadius;
     }
 
+    public double getHeight() {
+        return height;
+    }
+
 
     public double calculateVolume() {
         double innerVolume = Math.PI * Math.pow(innerRadius, 2) * height;
