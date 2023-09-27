@@ -15,4 +15,10 @@ public class Tubo {
         return outerVolume - innerVolume;
     }
 
+    public double calculateOuterSurfaceArea() {
+        double outerTopArea = 2 * Math.PI * Math.pow(outerRadius, 2);
+        double outerLateralArea = 2 * Math.PI * outerRadius * height;
+        return outerTopArea + outerLateralArea;
+    }
+
 }
