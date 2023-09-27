@@ -5,5 +5,8 @@ public class TuboTest {
         System.out.println("The volume of the tube is: " + t1.calculateVolume());
 
         System.out.println("The external surface area is: " + t1.calculateOuterSurfaceArea());
+
+        System.out.println("The internal surface area is: " + t1.calculateInnerSurfaceArea());
+
     }
 }
