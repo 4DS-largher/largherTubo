@@ -21,4 +21,10 @@ public class Tubo {
         return outerTopArea + outerLateralArea;
     }
 
+    public double calculateInnerSurfaceArea() {
+        double innerTopArea = 2 * Math.PI * Math.pow(innerRadius, 2);
+        double innerLateralArea = 2 * Math.PI * innerRadius * height;
+        return innerTopArea + innerLateralArea;
+    }
+
 }
