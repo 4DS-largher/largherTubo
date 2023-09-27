@@ -52,4 +52,12 @@ public class Tubo {
         return innerTopArea + innerLateralArea;
     }
 
+    public String toString() {
+        return "Tube{" +
+                "innerRadius=" + innerRadius +
+                ", outerRadius=" + outerRadius +
+                ", height=" + height +
+                '}';
+    }
+
 }
